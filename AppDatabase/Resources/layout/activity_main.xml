@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el nombre usuario"
+        android:id="@+id/txtUser" />
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el número de ID"
+        android:id="@+id/txtId" />
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su correo"
+        android:id="@+id/txtEmail" />
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese una frase de descripción"
+        android:id="@+id/txtDescription" />
+    <Button
+        android:text="Mostrar datos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/show" />
+    <Button
+        android:text="Insertar datos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/insert" />
+    <Button
+        android:text="Actualizar datos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/update" />
+    <Button
+        android:text="Eliminar datos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/delete" />
+    <TextView
+        android:text="Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ViewOne" />
+    <TextView
+        android:text="Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ViewTwo" />
+    <TextView
+        android:text="Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ViewThree" />
+    <TextView
+        android:text="Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ViewFour" />
+</LinearLayout>
